@@ -2,7 +2,7 @@ public class Hello {
 
     public static void main(String[] args) {
 
-        String password = "123456";
+        String password = System.getenv("PASSWORD");
 
         System.out.println(password);
 
